@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "whatWeDo": "What we do",
+    "whoWeAre": "Who we are",
+    "selectedWork": "Selected work",
+    "insights": "Perspectives",
+    "bookCall": "Book a call"
+  },
+  "footer": {
+    "tagline": "Strategy and commercial advisory for consumer and retail businesses across the GCC.",
+    "privacy": "Privacy policy",
+    "copyright": "© 2026 TMG Strategy. All rights reserved."
+  },
+  "cta": {
+    "bookCall": "Book a 30-minute call",
+    "bookCallShort": "Book a call"
+  }
+}
