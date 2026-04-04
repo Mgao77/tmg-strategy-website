@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing'
 import { instrumentSerif, geist, geistMono } from '@/lib/fonts'
 import Nav from '@/components/nav/Nav'
 import Footer from '@/components/layout/Footer'
+import JsonLd from '@/components/seo/JsonLd'
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -34,6 +35,7 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className="bg-[var(--color-canvas)]">
+        <JsonLd />
         <div className="grain-overlay" aria-hidden="true" />
         <a href="#main-content" className="skip-link">
           Skip to main content
