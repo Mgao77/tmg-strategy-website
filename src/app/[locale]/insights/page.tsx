@@ -6,6 +6,7 @@ import Divider from '@/components/ui/Divider'
 import Badge from '@/components/ui/Badge'
 import PostCard from '@/components/insights/PostCard'
 import { getAllPosts } from '@/lib/sanity/queries'
+import type { SanityPost } from '@/lib/sanity/types'
 
 export const metadata: Metadata = {
   title: 'Perspectives',
@@ -19,7 +20,12 @@ export default async function InsightsPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const posts = await getAllPosts()
+  let posts: SanityPost[] = []
+  try {
+    posts = await getAllPosts()
+  } catch {
+    posts = []
+  }
 
   return (
     <section className="pt-40 pb-24 md:pb-32" aria-labelledby="insights-heading">
