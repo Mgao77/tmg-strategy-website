@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_AE',
     siteName: 'TMG Strategy',
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
 }
 
