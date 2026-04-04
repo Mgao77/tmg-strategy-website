@@ -25,7 +25,7 @@ const featuredWork: CaseStudy[] = [
 
 export default function HomeWork() {
   return (
-    <section className="py-24 md:py-32" aria-labelledby="work-heading">
+    <section className="py-16 md:py-24" aria-labelledby="work-heading">
       <Container>
         <ScrollReveal>
           <div className="flex items-end justify-between mb-12">

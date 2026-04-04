@@ -5,9 +5,9 @@ import Divider from '@/components/ui/Divider'
 
 export default function ClosingCTA() {
   return (
-    <section className="py-24 md:py-32" aria-label="Book a consultation">
+    <section className="py-16 md:py-24" aria-label="Book a consultation">
       <Container>
-        <Divider className="mb-16" />
+        <Divider className="mb-10" />
         <ScrollReveal>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
             <div>

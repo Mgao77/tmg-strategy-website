@@ -30,11 +30,11 @@ const services = [
 
 export default function HomeServices() {
   return (
-    <section className="py-24 md:py-32" aria-labelledby="services-heading">
+    <section className="py-16 md:py-24" aria-labelledby="services-heading">
       <Container>
         <ScrollReveal>
           <Eyebrow>what we do</Eyebrow>
-          <h2 id="services-heading" className="text-heading mb-16 max-w-xl">
+          <h2 id="services-heading" className="text-heading mb-10 max-w-xl">
             One area of expertise. Two kinds of clients.
           </h2>
         </ScrollReveal>

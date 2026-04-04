@@ -19,11 +19,11 @@ const differentiators = [
 
 export default function WhyTMG() {
   return (
-    <section className="py-24 md:py-32 bg-[var(--color-surface)]" aria-labelledby="why-tmg-heading">
+    <section className="py-16 md:py-24 bg-[var(--color-surface)]" aria-labelledby="why-tmg-heading">
       <Container>
         <ScrollReveal>
           <Eyebrow>why tmg</Eyebrow>
-          <h2 id="why-tmg-heading" className="text-heading mb-16 max-w-xl">
+          <h2 id="why-tmg-heading" className="text-heading mb-10 max-w-xl">
             What makes us different is not what we say — it is what we have done.
           </h2>
         </ScrollReveal>

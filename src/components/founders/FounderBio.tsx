@@ -23,7 +23,7 @@ export default function FounderBio({ name, image, alt, bio, reversed = false }: 
               alt={alt}
               fill
               className="object-cover object-top"
-              style={{ filter: 'grayscale(30%) sepia(10%) brightness(0.97)' }}
+              style={{ filter: 'grayscale(100%) contrast(1.05) brightness(0.97)' }}
               sizes="(max-width: 768px) 100vw, 384px"
             />
           </div>

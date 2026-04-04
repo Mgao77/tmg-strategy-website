@@ -21,7 +21,7 @@ const mahmoudBio = [
 
 const tibaBio = [
   "Tiba Al-Damen is a co-founder of TMG Strategy and leads the firm's commercial due diligence and transaction advisory practice.",
-  'Tiba began her career at AT Kearney in Saudi Arabia, where she advised government and corporate clients on strategy and transformation across the consumer and public sectors. She subsequently moved into transaction advisory at EY, where she led commercial due diligence engagements for PE firms and strategic acquirers evaluating consumer and retail assets across the GCC.',
+  'Tiba began her career in transaction advisory at EY, where she led commercial due diligence engagements for PE firms and strategic acquirers evaluating consumer and retail assets across the GCC. She subsequently joined AT Kearney in Saudi Arabia, where she advised government and corporate clients on strategy and transformation across the consumer and public sectors.',
   "Her experience spans both sides of the investment process — advising the businesses being evaluated and the investors doing the evaluating. That dual perspective makes TMG's CDD work unusually practical.",
   'Tiba works most closely with PE firms and investors who need a rigorous, independent view of a consumer or retail asset before committing capital.',
 ]
@@ -30,7 +30,7 @@ export default function WhoWeArePage() {
   return (
     <>
       {/* Page header */}
-      <section className="pt-40 pb-16" aria-labelledby="about-heading">
+      <section className="pt-32 pb-10" aria-labelledby="about-heading">
         <Container>
           <ScrollReveal>
             <Eyebrow>who we are</Eyebrow>
@@ -45,9 +45,9 @@ export default function WhoWeArePage() {
       </section>
 
       {/* Founders */}
-      <section className="pb-24 md:pb-32" aria-label="Founding partners">
+      <section className="pb-16 md:pb-24" aria-label="Founding partners">
         <Container>
-          <Divider className="mb-16" />
+          <Divider className="mb-10" />
           <FounderBio
             name="Mahmoud Gao"
             image="/images/mahmoud-headshot.jpg"
@@ -55,7 +55,7 @@ export default function WhoWeArePage() {
             bio={mahmoudBio}
           />
 
-          <Divider className="my-20" />
+          <Divider className="my-12" />
 
           <FounderBio
             name="Tiba Al-Damen"
@@ -68,7 +68,7 @@ export default function WhoWeArePage() {
       </section>
 
       {/* Partner model note */}
-      <section className="py-24 md:py-32 bg-[var(--color-surface)]" aria-labelledby="partner-model">
+      <section className="py-16 md:py-24 bg-[var(--color-surface)]" aria-labelledby="partner-model">
         <Container>
           <ScrollReveal>
             <Eyebrow>how we work together</Eyebrow>

@@ -6,6 +6,7 @@ import HomeWork from '@/components/sections/HomeWork'
 import HomeFounders from '@/components/sections/HomeFounders'
 import PerspectivesTeaser from '@/components/sections/PerspectivesTeaser'
 import ClosingCTA from '@/components/sections/ClosingCTA'
+import CityStrip from '@/components/sections/CityStrip'
 
 export const metadata: Metadata = {
   title: 'TMG Strategy | Strategy Consulting Firm in Dubai',
@@ -23,9 +24,11 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <CityStrip src="/images/dubai-skyline.jpg" alt="Dubai skyline — TMG Strategy GCC consulting" />
       <HomeServices />
       <WhyTMG />
       <HomeWork />
+      <CityStrip src="/images/dubai-office.jpg" alt="Modern Dubai office district" />
       <HomeFounders />
       <PerspectivesTeaser />
       <ClosingCTA />
