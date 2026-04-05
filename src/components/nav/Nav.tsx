@@ -6,6 +6,7 @@ import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import MobileMenu from './MobileMenu'
 import Button from '@/components/ui/Button'
+import Logo from '@/components/ui/Logo'
 
 interface NavProps {
   locale: string
@@ -36,10 +37,10 @@ export default function Nav({ locale }: NavProps) {
           {/* Wordmark */}
           <Link
             href={`/${locale}`}
-            className="font-sans font-semibold text-sm tracking-tight text-[var(--color-ink-primary)] hover:text-[var(--color-accent)] transition-colors duration-200"
+            className="text-[var(--color-ink-primary)] hover:text-[var(--color-accent)] transition-colors duration-200"
             aria-label="TMG Strategy — home"
           >
-            TMG
+            <Logo variant="nav" />
           </Link>
 
           {/* Desktop links */}

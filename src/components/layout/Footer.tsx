@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import Container from './Container'
 import Divider from '@/components/ui/Divider'
+import Logo from '@/components/ui/Logo'
 
 export default function Footer() {
   const t = useTranslations('footer')
@@ -13,9 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           {/* Wordmark + tagline */}
           <div>
-            <p className="font-sans font-semibold text-sm text-[var(--color-ink-primary)] mb-2">
-              TMG Strategy
-            </p>
+            <Logo variant="footer" className="text-[var(--color-ink-primary)] mb-3" />
             <p className="text-caption max-w-xs">
               {t('tagline')}
             </p>

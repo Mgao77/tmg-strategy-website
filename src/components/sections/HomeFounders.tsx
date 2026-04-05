@@ -8,7 +8,7 @@ const founders = [
   {
     name: 'Mahmoud Gao',
     role: 'Growth strategy and commercial transformation',
-    image: '/images/mahmoud-headshot.jpg',
+    image: '/images/mahmoud-headshot-v2.jpg',
     alt: 'Mahmoud Gao, founding partner at TMG Strategy',
   },
   {
@@ -34,12 +34,12 @@ export default function HomeFounders() {
           {founders.map((founder, index) => (
             <ScrollReveal key={founder.name} delay={index * 0.1}>
               <div className="flex flex-col">
-                <div className="relative w-full aspect-[4/3] rounded-[4px] overflow-hidden mb-4">
+                <div className="relative w-full aspect-[3/4] rounded-[4px] overflow-hidden mb-4">
                   <Image
                     src={founder.image}
                     alt={founder.alt}
                     fill
-                    className="object-cover object-top"
+                    className="object-cover object-center"
                     style={{ filter: 'grayscale(100%) contrast(1.05) brightness(0.97)' }}
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
