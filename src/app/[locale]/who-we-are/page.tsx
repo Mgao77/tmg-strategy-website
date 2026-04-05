@@ -50,7 +50,7 @@ export default function WhoWeArePage() {
           <Divider className="mb-10" />
           <FounderBio
             name="Mahmoud Gao"
-            image="/images/mahmoud-headshot.jpg"
+            image="/images/mahmoud-headshot-v2.jpg"
             alt="Mahmoud Gao, co-founder of TMG Strategy"
             bio={mahmoudBio}
           />
